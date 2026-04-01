@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/DNXN/OneDrive/05 School/IIIT/B Tech CSE/Semester-8/2022bcs0008-mlops/mlruns/977304034510750292/models/m-53d671d144a240e1a2f7e56593999c74/artifacts
+creation_timestamp: 1775050216304
+experiment_id: '977304034510750292'
+last_updated_timestamp: 1775050223820
+model_id: m-53d671d144a240e1a2f7e56593999c74
+model_type: null
+name: model
+source_run_id: ed385ae45fc4444e99459805ea63bccd
+status: 2
+status_message: null

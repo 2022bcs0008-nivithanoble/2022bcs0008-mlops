@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/DNXN/OneDrive/05 School/IIIT/B Tech CSE/Semester-8/2022bcs0008-mlops/mlruns/1/models/m-375e2478f6524d649c9f1aee22743683/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-375e2478f6524d649c9f1aee22743683
+model_size_bytes: 916
+model_uuid: m-375e2478f6524d649c9f1aee22743683
+prompts: null
+run_id: eebb1d1167b246f8b79568d40697f9a8
+utc_time_created: '2026-04-01 13:15:45.579289'

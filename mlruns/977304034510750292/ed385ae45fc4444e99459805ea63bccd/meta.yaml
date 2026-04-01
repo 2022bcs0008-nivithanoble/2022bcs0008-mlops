@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/DNXN/OneDrive/05 School/IIIT/B Tech CSE/Semester-8/2022bcs0008-mlops/mlruns/977304034510750292/ed385ae45fc4444e99459805ea63bccd/artifacts
+end_time: 1775050223880
+entry_point_name: ''
+experiment_id: '977304034510750292'
+lifecycle_stage: active
+run_id: ed385ae45fc4444e99459805ea63bccd
+run_name: casual-donkey-866
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1775050216075
+status: 3
+tags: []
+user_id: DNXN

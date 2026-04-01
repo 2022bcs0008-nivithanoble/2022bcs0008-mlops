@@ -53,7 +53,7 @@ def save_metrics_to_rds(run_id: str, metrics: dict):
 
 MLFLOW_TRACKING_URI = os.environ.get("postgresql://postgres:postgres@bcs8-rds-db.cl2ia8gam7yp.us-east-1.rds.amazonaws.com/mlflow_metrics", "http://localhost:5000")
 # Set up MLflow experiment
-mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)  # Set the tracking URI to your MLflow server
+mlflow.set_tracking_uri("file:./mlruns")  # Set the tracking URI to your MLflow server
 mlflow.set_experiment("2022bcs0008_experiment")
 
 # Start MLflow run

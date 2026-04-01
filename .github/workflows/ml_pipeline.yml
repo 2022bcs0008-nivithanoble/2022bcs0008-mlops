@@ -39,6 +39,7 @@ jobs:
 
       - name: Pull data from DVC
         run: |
+          aws sts get-caller-identity
           dvc pull
 
       # ── 4. Model Training + 5. MLflow Logging + 6. Metrics Generation ──

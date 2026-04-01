@@ -13,6 +13,8 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+      AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
+      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
       MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
 
     steps:
@@ -36,6 +38,8 @@ jobs:
         run: |
           dvc remote modify bcs8_s3_remote access_key_id $AWS_ACCESS_KEY_ID
           dvc remote modify bcs8_s3_remote secret_access_key $AWS_SECRET_ACCESS_KEY
+          dvc remote modify bcs8_s3_remote region $AWS_DEFAULT_REGION
+          dvc remote modify bcs8_s3_remote session_token $AWS_SESSION_TOKEN
 
       - name: Pull data from DVC
         run: |

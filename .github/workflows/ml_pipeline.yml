@@ -50,7 +50,7 @@ jobs:
 
       # ── Upload metrics as GitHub artifact ──────────────────────────────
       - name: Upload metrics artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: metrics
           path: output/metrics/metric.json

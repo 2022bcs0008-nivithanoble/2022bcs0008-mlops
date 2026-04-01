@@ -1,0 +1,5 @@
+outs:
+- md5: 1f2ad3d6d02bf369f0461a54cd4b9167
+  size: 62723
+  hash: md5
+  path: data_partial.csv

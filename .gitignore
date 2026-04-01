@@ -1,2 +1,1 @@
-/dataset*
-!dataset/*.dvc
+dataset/data_partial.csv

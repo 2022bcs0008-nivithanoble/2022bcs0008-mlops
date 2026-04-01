@@ -1,0 +1,4 @@
+[core]
+    remote = bcs8_s3_remote
+['remote "bcs8_s3_remote"']
+    url = s3://22bcs8-assignment-dvc/data-dvc

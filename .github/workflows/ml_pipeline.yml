@@ -34,8 +34,8 @@ jobs:
       # ── 3. DVC Data Pull ───────────────────────────────────────────────
       - name: Configure DVC remote credentials
         run: |
-          dvc remote modify myremote access_key_id $AWS_ACCESS_KEY_ID
-          dvc remote modify myremote secret_access_key $AWS_SECRET_ACCESS_KEY
+          dvc remote modify remote access_key_id $AWS_ACCESS_KEY_ID
+          dvc remote modify remote secret_access_key $AWS_SECRET_ACCESS_KEY
 
       - name: Pull data from DVC
         run: |
